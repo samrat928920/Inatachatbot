@@ -94,4 +94,4 @@ app.add_handler(CommandHandler("help", help_cmd))
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, reply))
 
 print("🤖 Bot RUNNING (Secure Mode)")
-app.run_polling()
+app.run_polling() 
